@@ -1,7 +1,10 @@
 // import { BrowserRouter } from "react-router-dom";
 // import Hooks from "@/hooks.jsx";
 // import UseState from "@/useState_hook.jsx";
-import VideoPlayer from "./videoPlayer";
+// import VideoPlayer from "./videoPlayer";
+
+import Parent from "./useMemo";
+
 function App() {
   // const [son,setSon]=useState(0);
   // const [matn,setMatn]=useState("");
@@ -9,12 +12,13 @@ function App() {
   //     console.log("Hioblanvotti...");
   //     return son*10850;
   // },[son]);
-  return (
-    // <UseState/>
-    <>
-      {/* <Hooks /> */}
-      <VideoPlayer />
 
+  return (
+    <>
+      {/* <UseState /> */}
+      {/* <Hooks /> */}
+      <Parent />
+      {/* <VideoPlayer /> */}
       {/*<h2>Natija:{hisob}</h2>*/}
       {/*      <button onClick={()=>setSon(son+1)}>*/}
       {/*          +1*/}
