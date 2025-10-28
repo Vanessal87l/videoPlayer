@@ -2,8 +2,9 @@
 // import Hooks from "@/hooks.jsx";
 // import UseState from "@/useState_hook.jsx";
 // import VideoPlayer from "./videoPlayer";
-import FibanocciMisoli from "./useMemo";
+// import FibanocciMisoli from "./useMemo";
 // import Parent from "./useMemo";
+import ToDoList from "./useReducer";
 
 function App() {
   // const [son,setSon]=useState(0);
@@ -15,10 +16,12 @@ function App() {
 
   return (
     <>
+            <ToDoList />
+      
       {/* <UseState /> */}
       {/* <Hooks /> */}
       {/* <Parent /> */}
-        <FibanocciMisoli />
+        {/* <FibanocciMisoli /> */}
       {/* <VideoPlayer /> */}
       {/*<h2>Natija:{hisob}</h2>*/}
       {/*      <button onClick={()=>setSon(son+1)}>*/}
