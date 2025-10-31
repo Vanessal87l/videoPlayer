@@ -4,7 +4,8 @@
 // import VideoPlayer from "./videoPlayer";
 // import FibanocciMisoli from "./useMemo";
 // import Parent from "./useMemo";
-import ToDoList from "./useReducer";
+// import ToDoList from "./useReducer";
+import FormProverka from "./useActionStateNormativ";
 
 function App() {
   // const [son,setSon]=useState(0);
@@ -16,8 +17,10 @@ function App() {
 
   return (
     <>
-            <ToDoList />
+            {/* <ToDoList /> */}
       
+            <FormProverka />
+
       {/* <UseState /> */}
       {/* <Hooks /> */}
       {/* <Parent /> */}
